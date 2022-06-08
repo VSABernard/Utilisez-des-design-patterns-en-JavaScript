@@ -8,6 +8,7 @@ class PlayerModal {
         this.$modalWrapper = document.querySelector('.modal')
     }
 
+    // Ajouter un événement onClick sur un bouton qui va fermer la modale
     onCloseButton() {
         this.$wrapper
             .querySelector('.close-btn')
@@ -17,6 +18,7 @@ class PlayerModal {
             })
     }
 
+    // Créer un modale player
     createPlayer() {
         const player = `
             <div class="player">
